@@ -57,7 +57,7 @@ const App = () => {
           <div className="loading-spinner"></div>
         </div>
       )}
-      <div className="container p-5https://github.com/Yusup64/pwa-weather-app">
+      <div className="container p-5">
         <div className="d-flex justify-content-between align-items-center mb-3">
           <input
             className="form-control"
