@@ -57,7 +57,7 @@ const App = () => {
           <div className="loading-spinner"></div>
         </div>
       )}
-      <div className="container p-5">
+      <div className="container p-5https://github.com/Yusup64/pwa-weather-app">
         <div className="d-flex justify-content-between align-items-center mb-3">
           <input
             className="form-control"
@@ -76,7 +76,7 @@ const App = () => {
         {
           localStorageCities?.length > 0 && (
             <div className="mt-5">
-              <h2 className="mb-3">Saved Cities</h2>
+              <h2 className="mb-3">Recent Searches</h2>
               <ul className="list-group">
                 {localStorageCities.map((city) => (
                   <li key={city}
